@@ -1,0 +1,25 @@
+VALIDATION COMPLETED
+PHP 8.3.6 + MariaDB 10.11 test environment; XAMPP-oriented application.
+
+- All 50 PHP files passed native PHP syntax checks.
+- assets/js/app.js passed node --check.
+- Fresh schema and additive upgrade executed successfully; upgrade rerun passed.
+- No sample accounts were created by the SQL.
+- Pending institutions failed approval eligibility; approved institutions passed.
+- Partial acceptance reserved 40 of a 50-item listing, leaving 10 available.
+- Two donors reserved exactly 100 items against a 100-item requirement.
+- Further allocation against the filled requirement was rejected.
+- First delivery received 40 and left the requirement open.
+- Final delivery received 100 and marked the requirement complete.
+- Repeated completion was rejected without double counting.
+- Same-coordinate distance was zero; missing coordinates returned no distance.
+- Acceptance and completion history was recorded.
+- Eight public pages loaded without PHP warnings or fatal errors.
+- Admin login and eight management pages loaded successfully.
+- Donor login and six donor/shared pages loaded successfully.
+- Receiver login and five receiver/shared pages loaded successfully.
+
+Tests used isolated fixture records outside the deliverable; the ZIP contains
+no test database or fixture users. Upload handling and .htaccess protection
+require final verification on your Apache/XAMPP installation. This was not a
+full visual browser review, penetration test, or production deployment.
